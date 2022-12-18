@@ -1,3 +1,5 @@
 name = "vanessa"
 age = 19
-female = true
+female = True
+
+print(female)
