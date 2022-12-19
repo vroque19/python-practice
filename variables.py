@@ -1,5 +1,9 @@
-name = "vanessa"
-age = 19
-female = True
+# name = "vanessa"
+# age = 19
+# female = True
+# height = 64.5
 
-print(female)
+# multiple assignment
+Spongebob = Patrick = Squdward = 30
+
+print(Spongebob)
