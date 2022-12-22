@@ -4,6 +4,13 @@
 # height = 64.5
 
 # multiple assignment
-Spongebob = Patrick = Squdward = 30
+#Spongebob = Patrick = Squdward = 30
 
-print(Spongebob)
+# type casting
+
+x = 1
+y = 1.00
+z = "1"
+
+y = str(y)
+print("y is "+y)
