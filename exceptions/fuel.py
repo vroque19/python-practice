@@ -18,16 +18,19 @@ def get_fuel(fraction):
             y = int(split[1])
 
             if x > y:
-                raise Exception()
+                raise Exception("improper fraction")
 
             percentage = round(x/y*100)
             return percentage
 
         except Exception as e:
+            print(e)
             pass
         except ValueError:
+            print("value error")
             pass
         except ZeroDivisionError:
+            print("cannot divide by 0")
             pass
 
 
