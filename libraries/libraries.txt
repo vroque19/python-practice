@@ -1,0 +1,16 @@
+Introduction to libraries
+---------------------------
+
+Module: a library with one or more functions/feautures built into it that is helpful with reusability of code.
+
+example: random.choice(seq)
+	- seq: sequence/list
+
+"from random import choice" allows you to call the choice function without having to specify the scope by loading the function, choice, into the current namespace/scope of the current file im working in.
+
+
+-------------------------
+
+Command line arguments
+-------------------------
+argv: argument vector
