@@ -13,6 +13,8 @@ def get_fuel(fraction):
     while True:
         try:
             str = input(fraction)
+
+
             split = str.split("/")
             x = int(split[0])
             y = int(split[1])
